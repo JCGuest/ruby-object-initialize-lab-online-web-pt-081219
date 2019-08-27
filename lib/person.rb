@@ -14,13 +14,7 @@
 
 class Person
 
-def name=(person_name)
-  @name = person_name
-end
-
-def name
-  @name
-end 
+attr_accessor :name
 
 
 end
